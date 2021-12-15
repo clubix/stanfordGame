@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     @IBAction func buttonAction(_ sender: UIButton) {
         touches += 1
         // touchLabel.text = "Touches: \(touches)" - мы перенесли его в didSet
-        if let buttonIndex = buttonCollection.firstIndex(of: sender) { //извлечение опционала
+        if let buttonIndex = buttonCollection.firstIndex(of: sender) { //извлечение опционалаs
         flipButton(emoji: emojiCollection[buttonIndex], button: sender)
         }
     }
